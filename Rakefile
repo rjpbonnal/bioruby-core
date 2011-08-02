@@ -17,11 +17,15 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bio-core"
   gem.homepage = "http://github.com/helios/bioruby-core"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{BioRuby core plugins, most and stable plugins. BlastXMLParser, BWA, SamTools }
+  gem.description = %Q{Bioruby core plugins}
   gem.email = "ilpuccio.febo@gmail.com"
   gem.authors = ["Raoul J.P. Bonnal"]
   # dependencies defined in Gemfile
+  gem.add_runtime_dependency 'bio'
+  gem.add_runtime_dependency 'bio-bwa'
+  gem.add_runtime_dependency 'bio-samtools'
+  gem.add_runtime_dependency 'bio-blastxmlparser'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
