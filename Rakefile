@@ -23,9 +23,13 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Raoul J.P. Bonnal"]
   # dependencies defined in Gemfile
   gem.add_runtime_dependency 'bio'
-  gem.add_runtime_dependency 'bio-bwa'
-  gem.add_runtime_dependency 'bio-samtools'
   gem.add_runtime_dependency 'bio-blastxmlparser'
+  gem.add_runtime_dependency 'bio-assembly'
+  gem.add_runtime_dependency 'bio-gff3'
+  gem.add_runtime_dependency 'bio-logger'
+  gem.add_runtime_dependency 'intermine-bio'
+  gem.add_runtime_dependency 'ruby-ensembl-api'
+  gem.add_runtime_dependency 'bio-ucsc-api'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
