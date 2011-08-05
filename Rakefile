@@ -22,14 +22,13 @@ Jeweler::Tasks.new do |gem|
   gem.email = "ilpuccio.febo@gmail.com"
   gem.authors = ["Raoul J.P. Bonnal"]
   # dependencies defined in Gemfile
-  gem.add_runtime_dependency 'bio'
-  gem.add_runtime_dependency 'bio-blastxmlparser'
-  gem.add_runtime_dependency 'bio-assembly'
-  gem.add_runtime_dependency 'bio-gff3'
-  gem.add_runtime_dependency 'bio-logger'
-  gem.add_runtime_dependency 'intermine-bio'
-  gem.add_runtime_dependency 'ruby-ensembl-api'
-  gem.add_runtime_dependency 'bio-ucsc-api'
+  gem.add_runtime_dependency 'bio',["= 1.4.1"]
+  gem.add_runtime_dependency 'bio-assembly',["= 0.1.0"]
+  gem.add_runtime_dependency 'bio-gff3',["= 0.8.7"]
+  gem.add_runtime_dependency 'bio-logger',["= 1.0.0"]
+  gem.add_runtime_dependency 'intermine-bio',["= 0.98.1"]
+  gem.add_runtime_dependency 'ruby-ensembl-api',["= 1.0.1"]
+  gem.add_runtime_dependency 'bio-ucsc-api',["= 0.1.0"]
 end
 Jeweler::RubygemsDotOrgTasks.new
 
