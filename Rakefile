@@ -22,7 +22,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "ilpuccio.febo@gmail.com"
   gem.authors = ["Raoul J.P. Bonnal"]
   # dependencies defined in Gemfile
-  gem.add_runtime_dependency 'bio',["= 1.4.1"]
+  gem.add_runtime_dependency 'bio',["= 1.4.2"]
   gem.add_runtime_dependency 'bio-assembly',["= 0.1.0"]
   gem.add_runtime_dependency 'bio-gff3',["= 0.8.7"]
   gem.add_runtime_dependency 'bio-logger',["= 1.0.0"]
